@@ -14,7 +14,7 @@ class Car():
         
         
     def acceleration(self):
-        if self.fuel in [' electricity', 'hibrid']:
+        if self.fuel in ['electricity', 'hibrid']:
             print(f"{self.model} - This model reaches 100 km/h in 1.2 seconds")
         elif self.fuel in ['Gaz', 'Benzin']:
             print(f"{self.model} - This model reaches 100 km/h in 13 seconds")
@@ -24,7 +24,7 @@ class Car():
             
             
     def fuller(self):
-        if self.fuel in [' electricity', 'hibrid']:
+        if self.fuel in ['electricity', 'hibrid']:
             print(f"{self.model} - Ushbu model 8 soat da to'liq toladi")
         elif self.fuel in [ 'Benzin']:
             print(f"{self.model} - Ushbu model tez to'ladi 80 l")
@@ -57,7 +57,7 @@ class Car():
         
 chevrolet = Car(model='Malibu', color='black', fuel='Benzin', window='black', year=2010, price=30000)
 BMW = Car(model='BMW', color='white', fuel='Gaz', window='white', year=2020, price=400000)
-byd = Car(model='Chempion', color='green', fuel=' electricity', window='green', year=2015, price=300000)
+byd = Car(model='Chempion', color='green', fuel='electricity', window='green', year=2015, price=300000)
 Toyota = Car(model='Corolla', color='Black', fuel='Benzin', window='Black', year=2024, price=24000)
 Honda = Car(model='Civic', color='White', fuel='Benzin', window='White', year=2025, price=29000)
 Ford = Car(model='Mustang', color='White', fuel='Benzin', window='White', year=2009, price=30000)
@@ -102,3 +102,7 @@ print(f"{int(Ford.price)}")
 # 10%
 
 # narx
+
+
+
+
